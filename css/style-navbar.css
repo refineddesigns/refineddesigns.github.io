@@ -1,0 +1,37 @@
+﻿.navbar-default {
+    background-color: white;
+    border-color: white;
+    font-size: 130%;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse { text-align: center; }
+
+.navbar-default .navbar-nav > li > a:hover { border-bottom: 2px solid black; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+.navbar-wrapper {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
