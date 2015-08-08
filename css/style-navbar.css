@@ -39,4 +39,6 @@
 
 @media (max-width: 767px) {
     .navbar-default { width: 100%; }
+
+    img { max-width: 100%; }
 }
