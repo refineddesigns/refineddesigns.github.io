@@ -6,7 +6,7 @@ div.footer {
     padding: 40px;
 }
 
-body {font-family:"tahoma"}
+body { font-family: "tahoma" }
 
 a, a:hover, a:active, a:visited { color: white; }
 
@@ -19,15 +19,14 @@ div.main {
 
 #indexmid { background-color: lavender; }
 
-#indexmid a, #invitemid a { color: #333333; text-decoration: none; }
-
-.modal-content {
-	margin-left: -150px;
+#indexmid a, #invitemid a {
+    color: #333333;
+    text-decoration: none;
 }
 
-.panel-title {
-    font-weight: bold;
-}
+.modal-content { margin-left: -150px; }
+
+.panel-title { font-weight: bold; }
 
 div.mid {
     padding: 20px;
@@ -35,15 +34,14 @@ div.mid {
 }
 
 p a, p a:hover, p a:active, p a:visited,
-.container.main a, .container.main a:hover, .container.main a:active, .container.main a:visited { color: #333333; 
-text-decoration: underline;}
+.container.main a, .container.main a:hover, .container.main a:active, .container.main a:visited {
+    color: #333333;
+    text-decoration: underline;
+}
 
 .mid h2 { font-weight: normal; }
 
-div.invites {
-    padding-bottom: 60px;
-    
-}
+div.invites { padding-bottom: 60px; }
 
 p.invitename { font-weight: bold; }
 
@@ -51,8 +49,8 @@ div.blurb { padding: 0; }
 
 h3 {
     font-weight: bold;
-    padding-top: 20px;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 img.circle {
@@ -85,7 +83,3 @@ div.testimonials {
 }
 
 p { padding-bottom: 10px; }
-
-@media (min-width: 768px) {
-    .navbar-wrapper { margin-top: 128px; }
-}
