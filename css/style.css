@@ -43,6 +43,11 @@ p a, p a:hover, p a:active, p a:visited,
 
 div.invites { padding-bottom: 60px; }
 
+div.invites p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 p.invitename { font-weight: bold; }
 
 div.blurb { padding: 0; }
