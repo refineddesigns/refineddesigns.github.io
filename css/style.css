@@ -88,3 +88,19 @@ div.testimonials {
 }
 
 p { padding-bottom: 10px; }
+
+.footerheading { 
+	font-weight: bold;
+	display:inline-block;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    img { max-width: 100%; }
+	
+	.toppadding { padding-top: 20px; }
+	
+	.footerheading { 
+		text-decoration: underline;
+	}
+}
