@@ -83,8 +83,9 @@ div.testimonials {
 }
 
 #headingpic {
-    float: right;
+    float: left;
     padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 p { padding-bottom: 10px; }
